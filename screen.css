@@ -507,3 +507,11 @@ template {
 	 border: 2px solid #ccffff;
  }
  
+ legend {
+	 font-size: 1.75em;
+ }
+ 
+ li {
+	 margin-top: 1.5em;
+ }
+ 
