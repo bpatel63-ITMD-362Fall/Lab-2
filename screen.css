@@ -496,6 +496,11 @@ template {
 }
 
 /* Styling CSS*/
+
+h1 {
+	text-align: center;
+}
+
  p {
 	 background-color: #ccffff;
 	 border: 2px solid #ccffff;
@@ -537,7 +542,79 @@ template {
 	 font-size: 1.2em;
  }
  
- 
+ /*phones, custom*/
+@media (max-width: 575px) {
+	header, main {
+		width: 300px;
+		margin: auto;
+	}
+
+	form, p {
+		width: 280px;
+		border-radius: 15px;
+		padding: 12px;
+	}
+	
+	input {
+		width: 256px;
+	}
+	
+	#biodem_form_submit {
+		border-radius: 3px;
+	}
+}
+
+/*Small devices, landscape phones*/
+@media (min-width: 576px) and (max-width: 767px) {
+	body {
+		font-size: 16px;
+	}
+	
+	header, main {
+		width: 500px;
+		margin: auto;
+	}
+
+	form, p {
+		width: 480px;
+		border-radius: 20px;
+		padding: 16px;
+	}
+	
+	input {
+		width: 448px;
+	}
+	
+	#biodem_form_submit {
+		border-radius: 4px;
+	}
+}
+
+/*Medium devices, tablets*/
+@media (min-width: 768px) {
+	body {
+		font-size: 1.2em;
+	}
+
+	header, main {
+		width: 600px;
+		margin: auto;
+	}
+
+	form, p {
+		width: 560px;
+		border-radius: 25px;
+		padding: 20px;
+	}
+	
+	input {
+		width: 510px;
+	}
+	
+	#biodem_form_submit {
+		border-radius: 5px;
+	}
+}
  
  
  
