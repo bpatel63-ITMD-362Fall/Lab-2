@@ -496,6 +496,14 @@ template {
 }
 
 /* Styling CSS*/
- p{
+ p {
 	 background-color: #ccffff;
-	 
+	 border: 2px solid #ccffff;
+ }
+ 
+ form {
+	 margin-top: 0.2em;
+	 background-color: #ccffff;
+	 border: 2px solid #ccffff;
+ }
+ 
