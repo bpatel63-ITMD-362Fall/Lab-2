@@ -497,19 +497,22 @@ template {
 
 /* Styling CSS*/
 
+body {
+	background-color: 
+
 h1 {
 	text-align: center;
 }
 
  p {
-	 background-color: #ccffff;
-	 border: 2px solid #ccffff;
+	 background-color: #e6ffff;
+	 border: 2px solid #e6ffff;
  }
  
  form {
 	 margin-top: 0.2em;
-	 background-color: #ccffff;
-	 border: 2px solid #ccffff;
+	 background-color: #e6ffff;
+	 border: 2px solid #e6ffff;
  }
  
  legend {
